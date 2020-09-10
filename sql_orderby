@@ -1,0 +1,4 @@
+ SELECT DISTINCT stu_fname , login_count , course_count FROM  students ORDER BY login_count ASC; 
+ SELECT DISTINCT stu_fname ,login_count FROM students  ORDER BY login_count DESC;
+ 
+ SELECT DISTINCT stu_fname ,login_count FROM students  ORDER BY login_count DESC LIMIT 0,5;
